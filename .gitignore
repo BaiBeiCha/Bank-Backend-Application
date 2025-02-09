@@ -1,0 +1,12 @@
+# Игнорировать файлы с предупреждениями о замене LF на CRLF
+API-Gateway/build.gradle
+API-Gateway/src/main/resources/application.yml
+
+# Игнорировать файлы и папки, связанные с данными MySQL
+API-Gateway/volume-data/mysql_keycloak_data/auto.cnf
+API-Gateway/volume-data/mysql_keycloak_data/binlog.index
+API-Gateway/volume-data/mysql_keycloak_data/ib_buffer_pool
+API-Gateway/volume-data/mysql_keycloak_data/mysql.sock
+
+# Игнорировать всю папку mysql_keycloak_data, если она не нужна в репозитории
+API-Gateway/volume-data/mysql_keycloak_data/
